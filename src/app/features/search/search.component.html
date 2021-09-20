@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">Rechercher</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-align-items-center ion-text-center">
+      <ion-col size="12">
+        <ion-item>
+          <ion-label color="primary" slot="start">E</ion-label>
+          <ion-input #inputSearch type="text" placeholder="141" color="primary"></ion-input>
+        </ion-item>
+        <div class="ion-margin-top ion-padding-top">
+          <ion-button shape="round" fill="outline" (click)="search(inputSearch)">
+            <ion-icon slot="start" name="search-outline"></ion-icon>
+            Rechercher
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

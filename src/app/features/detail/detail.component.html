@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="primary" defaultHref="tabs/search"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="primary">Détail</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-card *ngIf="additive" class="ion-text-center">
+    <ion-card-header [style.background]="additive.level|level">
+      <ion-card-title color="light">{{additive.id}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+            <h1>{{additive.name}}</h1>
+          </ion-col>
+          <ion-col size="12">
+            <p>{{additive.type}}</p>
+          </ion-col>
+          <ion-col size="12">
+            <p [style.color]="additive.level|level">
+              {{additive.level|status}}
+            </p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="detail">
+    <ion-card-content>
+      <div [innerHTML]="detail"></div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">Liste des Additifs</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list class="ion-no-padding" *ngIf="additives">
+    <ion-item *ngFor="let additive of additives|slice:0:max" [routerLink]="additive.id">
+      <ion-thumbnail slot="start" [style.background]="additive.level|level">
+        <ion-text color="primary">
+          E{{additive.id}}
+        </ion-text>
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap ion-no-margin ion-padding-start">
+        <ion-text color="dark">
+          <h3>{{additive.name}}</h3>
+        </ion-text>
+        <ion-text color="medium">
+          <p>{{additive.type}}</p>
+        </ion-text>
+      </ion-label>
+      <ion-button fill="clear" slot="end">
+        <ion-icon color="dark" slot="icon-only" name="caret-forward-circle"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

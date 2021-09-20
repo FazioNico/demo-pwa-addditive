@@ -1,0 +1,2242 @@
+{"additives": [
+	{
+		"id": "100",
+		"name": "Curcumine",
+		"level": "0",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "101",
+		"name": "Lactoflavine",
+		"level": "0",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "102",
+		"name": "Tartrazine",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "104",
+		"name": "Jaune de quinoleine",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "110",
+		"name": "Jaune orangé S",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "120",
+		"name": "Cochenille - acide carminique",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "122",
+		"name": "Azorubine",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "123",
+		"name": "Amarante",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "124",
+		"name": "Ponceau 4R",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "127",
+		"name": "Erythrosine",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "128",
+		"name": "Rouge 2G/azogéranine",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "129",
+		"name": "Rouge allura AC",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "131",
+		"name": "Bleu patenté V",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "132",
+		"name": "Indigotine",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "133",
+		"name": "Bleu brillant FCF",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "140",
+		"name": "Chlorophylles/phéophytine au magnésium",
+		"level": "0",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "141",
+		"name": "Chlorophylles/Chlorophyllines",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "142",
+		"name": "Vert acide brillant BS",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "150",
+		"name": "Caramel ordinaire",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "150c",
+		"name": "Caramel ammoniacal - ammonium",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "150d",
+		"name": "Caramel ammoniacal - ammonium",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "151",
+		"name": "Noir brillant BN",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "153",
+		"name": "Carbo médicinalis vegetalis",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "154",
+		"name": "Brun FK",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "155",
+		"name": "Brun chocolat HT",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "160",
+		"name": "Carotènes, caroténoïdes mélangés",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "160b",
+		"name": "Roucou, Norbixine, Bixine",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "160c",
+		"name": "Extrait de paprika",
+		"level": "0",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "160d",
+		"name": "Lycopène rouge",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "161",
+		"name": "Xanthophylle jaune",
+		"level": "1",
+		"type": "colorants",
+		"info": "Interdit en Suisse"
+	},
+	{
+		"id": "161a",
+		"name": "Flaxoxanthine",
+		"level": "1",
+		"type": "colorants",
+		"info": "Interdit en Suisse"
+	},
+	{
+		"id": "161b",
+		"name": "Lutéine jaune/rouge",
+		"level": "2",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "161c",
+		"name": "Cryptoxantthine",
+		"level": "2",
+		"type": "colorants",
+		"info": "Interdit en Suisse"
+	},
+	{
+		"id": "161g",
+		"name": "Canthaxanthine",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "162",
+		"name": "Rouge betterave - bétanine",
+		"level": "0",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "163",
+		"name": "Anthocyanes pourpre à violet",
+		"level": "0",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "170",
+		"name": "Carbonates de calcium",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "171",
+		"name": "Dioxyde de titane",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "172",
+		"name": "Oxyde et hydroxyde de fer",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "173",
+		"name": "Aluminium",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "174",
+		"name": "Argent - argentum",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "175",
+		"name": "Or - aurum",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "180",
+		"name": "Litholrubine BK - pigment rubis - carmin 6B",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "200",
+		"name": "Acide sorbique",
+		"level": "1",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "201",
+		"name": "Sorbates de sodium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "202",
+		"name": "Sorbates de potassium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "203",
+		"name": "Sorbates de calcium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "210",
+		"name": "Acide benzoïque",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "211",
+		"name": "Benzoates de sodium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "212",
+		"name": "Benzoates de potassium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "213",
+		"name": "Benzoates de calcium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "214",
+		"name": "Parahydroxybenzoate d'éthyle - propyle - méthyle et sels sodiques",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "215",
+		"name": "Parahydroxybenzoate d'éthyle - propyle - méthyle et sels sodiques",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "216",
+		"name": "Parahydroxybenzoate d'éthyle - propyle - méthyle et sels sodiques",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "217",
+		"name": "Parahydroxybenzoate d'éthyle - propyle - méthyle et sels sodiques",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "218",
+		"name": "Parahydroxybenzoate d'éthyle - propyle - méthyle et sels sodiques",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "219",
+		"name": "Parahydroxybenzoate d'éthyle - propyle - méthyle et sels sodiques",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "220",
+		"name": "Anhydride sulfureux et sulfite",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "221",
+		"name": "Anhydride sulfureux et sulfite",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "222",
+		"name": "Anhydride sulfureux et sulfite",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "223",
+		"name": "Anhydride sulfureux et sulfite",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "224",
+		"name": "Anhydride sulfureux et sulfite",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "225",
+		"name": "Anhydride sulfureux et sulfite",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "226",
+		"name": "Sulfite de calcium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "227",
+		"name": "Sulfite acide de calcium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "228",
+		"name": "Sulfite - acide de potassium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "230",
+		"name": "Biphényle - diphényle",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "231",
+		"name": "Orthophénylphénol",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "232",
+		"name": "Orthophénylphénate de sodium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "233",
+		"name": "Thiabendazole",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "234",
+		"name": "Nisine",
+		"level": "1",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "235",
+		"name": "Natamycine (pimaricin)",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "236",
+		"name": "Acide formique",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "237",
+		"name": "Formiate de sodium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "237",
+		"name": "Formiate de calcium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "239",
+		"name": "Hexaméthylène - tétramine",
+		"level": "0",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "242",
+		"name": "Dicarbontate de dimethyle",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "249",
+		"name": "Nitrite de potassium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "250",
+		"name": "Nitrite de sodium (divers)",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "251",
+		"name": "Nitrate de sodium (divers)",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "252",
+		"name": "Nitrate de potassium",
+		"level": "2",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "255",
+		"name": "Oxide de silicium",
+		"level": "1",
+		"type": "anti agglomerant",
+		"info": ""
+	},
+	{
+		"id": "260",
+		"name": "Acide acétique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "261",
+		"name": "Acétates de potassium",
+		"level": "2",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "262",
+		"name": "Diacétates de sodium",
+		"level": "1",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "263",
+		"name": "Acétates de calcium",
+		"level": "2",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "264",
+		"name": "Acétates d'ammonium",
+		"level": "2",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "270",
+		"name": "Acide lactique",
+		"level": "2",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "280",
+		"name": "Acide propionique",
+		"level": "1",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "281",
+		"name": "Propionates de sodium",
+		"level": "1",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "282",
+		"name": "Propionates de calcium",
+		"level": "1",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "283",
+		"name": "Propionates de potassium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "284",
+		"name": "Acide borique",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "285",
+		"name": "Tétraborate de sodium",
+		"level": "3",
+		"type": "agents conservateurs",
+		"info": ""
+	},
+	{
+		"id": "290",
+		"name": "Dioxyde de carbone",
+		"level": "3",
+		"type": "gaz",
+		"info": ""
+	},
+	{
+		"id": "296",
+		"name": "Acide malique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "297",
+		"name": "Acide fumarique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "300",
+		"name": "Acide ascorbique",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "301",
+		"name": "Ascorbate de sodium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "302",
+		"name": "Ascorbates de calcium / potassium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "304",
+		"name": "Esters d'acides gras de l'acide ascorbique",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "306",
+		"name": "Tocophérols",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "307",
+		"name": "Tocophérols",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "308",
+		"name": "Tocophérols",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "309",
+		"name": "Tocophérols",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "310",
+		"name": "Gallate de propyle",
+		"level": "1",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "311",
+		"name": "Gallate d'octyle",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "312",
+		"name": "Gallate de dodécyle",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "315",
+		"name": "Acide érythorbique",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "316",
+		"name": "Erythorbate de sodium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "320",
+		"name": "Butylhydroxyanisol (BHA)",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "321",
+		"name": "Butylhydroxytoluène (BHT)",
+		"level": "1",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "322",
+		"name": "Lécithine",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": "peut être un dérivé d'OGM"
+	},
+	{
+		"id": "325",
+		"name": "Lactate d'ammonium/sodium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "326",
+		"name": "Lactate de potassium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "327",
+		"name": "Lactate de calcium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "330",
+		"name": "Acide citrique",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "331",
+		"name": "Citrate de sodium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": "peut être un dérivé d'OGM"
+	},
+	{
+		"id": "332",
+		"name": "Citrate de potassium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "333",
+		"name": "Citrate de calcium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "334",
+		"name": "Acide tartrique",
+		"level": "3",
+		"type": "antioxydants",
+		"info": "peut être un dérivé d'OGM"
+	},
+	{
+		"id": "335",
+		"name": "Tartrate d'ammonium/sodium",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "336",
+		"name": "Tartrate de potassium",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "337",
+		"name": "Tartrate de potassium / calcium / sodium",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "338",
+		"name": "Acide orthophosphorique",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "339",
+		"name": "Orthophosphates de sodium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "340",
+		"name": "Orthophosphates de potassium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "341",
+		"name": "Orthophosphates de calcium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "343",
+		"name": "Phosphates de magnésium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "350",
+		"name": "Malates de sodium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "351",
+		"name": "Malates de potassium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "352",
+		"name": "Malates de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "353",
+		"name": "Acide métatartrique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "354",
+		"name": "Tartrate de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "355",
+		"name": "Acide adipique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "356",
+		"name": "Adipate de sodium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "357",
+		"name": "Adipate de potassium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "363",
+		"name": "Acide succinique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "380",
+		"name": "Citrate de triammonium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "385",
+		"name": "Ethylène-diamine-tétra-acétate de calcium disodium",
+		"level": "3",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "400",
+		"name": "Acide alginique",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "401",
+		"name": "Alginate de sodium",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "402",
+		"name": "Alginate de potassium",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "403",
+		"name": "Alginate d'ammonium",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "404",
+		"name": "Alginate de calcium",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "405",
+		"name": "Alginate de propylèneglycol",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "406",
+		"name": "Agar-agar (gélose)",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "407",
+		"name": "Carraghénane",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "410",
+		"name": "Farine de graines de caroubes",
+		"level": "1",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "412",
+		"name": "Gomme de guar",
+		"level": "1",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "413",
+		"name": "Gomme adragante",
+		"level": "1",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "414",
+		"name": "Gomme arabique",
+		"level": "1",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "415",
+		"name": "Gomme de xanthane",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "416",
+		"name": "Gomme Karaya",
+		"level": "0",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "417",
+		"name": "Gomme Tara",
+		"level": "0",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "418",
+		"name": "Gomme Gellane",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "420",
+		"name": "Sorbitol",
+		"level": "3",
+		"type": "substances gustatives",
+		"info": ""
+	},
+	{
+		"id": "421",
+		"name": "Mannitol",
+		"level": "3",
+		"type": "substances gustatives",
+		"info": ""
+	},
+	{
+		"id": "422",
+		"name": "Glycerol",
+		"level": "3",
+		"type": "substances gustatives",
+		"info": ""
+	},
+	{
+		"id": "425",
+		"name": "Konjac",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "425k",
+		"name": "Konjac",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "430",
+		"name": "Gelatine",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "431",
+		"name": "Stéarate de polyoxyéthylène",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "432",
+		"name": "Monolaurate de polyoxyéthylène sorbitane",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "433",
+		"name": "Monooléate de polyoxyéthylène sorbitane",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "434",
+		"name": "Monopalmitate de polyoxyéthylène sorbitane",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "435",
+		"name": "Monostéarate de polyoxythylène sorbitane",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "436",
+		"name": "Tristéarate de polyoxyéthylène sorbitane",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "440",
+		"name": "Pectines",
+		"level": "0",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "440b",
+		"name": "Pectines amidée",
+		"level": "2",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "441",
+		"name": "Gelatine",
+		"level": "3",
+		"type": "épaississants",
+		"info": ""
+	},
+	{
+		"id": "442",
+		"name": "Sels d'ammonium / acides phosphatidiques",
+		"level": "1",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "443",
+		"name": "Huile végétale bromée",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "444",
+		"name": "Acétate isobutyrate de saccharose",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "445",
+		"name": "Esters glycériques de résine de bois",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": "origine animale ou OGM"
+	},
+	{
+		"id": "450",
+		"name": "Potassium / calcium et sels",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "451",
+		"name": "Triphosphates",
+		"level": "3",
+		"type": "hosphates et polyphosphates",
+		"info": ""
+	},
+	{
+		"id": "452",
+		"name": "Polyphosphates",
+		"level": "3",
+		"type": "hosphates et polyphosphates",
+		"info": ""
+	},
+	{
+		"id": "459",
+		"name": "Bêta-cyclodextrine",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "460",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "461",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "462",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "463",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "464",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "465",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "466",
+		"name": "Celluloses microcristallines",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "468",
+		"name": "Carboxyméthylcellulose de sodium réticulée",
+		"level": "3",
+		"type": "agents de texture",
+		"info": ""
+	},
+	{
+		"id": "469",
+		"name": "Carboxyméthylcellulose hydrolysée",
+		"level": "3",
+		"type": "agents de texture",
+		"info": ""
+	},
+	{
+		"id": "470",
+		"name": "Stéarates",
+		"level": "2",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "471",
+		"name": "Mono- et diglycérides des acides gras alimentaires",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "472",
+		"name": "Acides acétiques et tartriques",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "473",
+		"name": "Saccharo-esters",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "474",
+		"name": "Saccharo-glycérides 3",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "475",
+		"name": "Esters polyglycériques",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "476",
+		"name": "Polyricinoléate de polyglycérol",
+		"level": "1",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "477",
+		"name": "Esters des acides gras alimentaires",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "479",
+		"name": "Huile de soja oxydée par chauffage",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "481",
+		"name": "Stéaroyl - 2 lactylates de Sodium",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "482",
+		"name": "Stéaroyl - 2 lactylates de calcium",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "483",
+		"name": "Tartrate de stéaroyle",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "491",
+		"name": "Monostéarate de sorbitane",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "492",
+		"name": "Tristéarate de sorbitane",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "493",
+		"name": "Monolaurate de sorbitane",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "494",
+		"name": "Monooléate de sorbitane",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "495",
+		"name": "Monopalmitate de sorbitane",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "500",
+		"name": "Sels de l'acide carbonique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "501",
+		"name": "Sels de l'acide carbonique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "502",
+		"name": "Sels de l'acide carbonique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "503",
+		"name": "Sels de l'acide carbonique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "504",
+		"name": "Sels de l'acide carbonique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "507",
+		"name": "Acide chlorhydrique - chlorure de potassium et de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "508",
+		"name": "Acide chlorhydrique - chlorure de potassium et de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "509",
+		"name": "Acide chlorhydrique - chlorure de potassium et de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "511",
+		"name": "Chlorure de magnésium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "512",
+		"name": "Chlorure d'étain",
+		"level": "2",
+		"type": "antioxydants",
+		"info": ""
+	},
+	{
+		"id": "513",
+		"name": "Acide sulfurique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "514",
+		"name": "Sulfates de sodium - potassium - calcium - ammonium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "515",
+		"name": "Sulfates de sodium - potassium - calcium - ammonium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "516",
+		"name": "Sulfates de sodium - potassium - calcium - ammonium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "517",
+		"name": "Sulfates de sodium - potassium - calcium - ammonium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "520",
+		"name": "Sulfates d'aluminium ",
+		"level": "1",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "521",
+		"name": "Sulfates sodique ",
+		"level": "1",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "522",
+		"name": "Sulfates d'aluminium potassique ",
+		"level": "1",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "523",
+		"name": "Sulfates d'aluminium ammonique",
+		"level": "1",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "524",
+		"name": "Hydroxyde de sodium ",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "525",
+		"name": "Hydroxyde de potassium ",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "526",
+		"name": "Hydroxyde de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "527",
+		"name": "Hydroxyde d'ammonium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "528",
+		"name": "Hydroxyde de magnésium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "529",
+		"name": "Oxyde de calcium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "530",
+		"name": "Oxyde de magnésium",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "535",
+		"name": "Ferrocyanure de sodium - potassium - calcium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "536",
+		"name": "Ferrocyanure de sodium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "537",
+		"name": "Ferrocyanure de potassium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "538",
+		"name": "Ferrocyanure de calcium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "541",
+		"name": "Phosphate d'aluminium sodique acide",
+		"level": "3",
+		"type": "hosphates et polyphosphates",
+		"info": ""
+	},
+	{
+		"id": "551",
+		"name": "Dioxyde de silicium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "552",
+		"name": "Silicate de calcium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "553a",
+		"name": "(Tri)silicate de magnésium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "553b",
+		"name": "Talc",
+		"level": "2",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "554",
+		"name": "Silicate d'alumino-sodique - potassique - calcique et d'aluminium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "555",
+		"name": "Silicate d'alumino-sodique - potassique - calcique et d'aluminium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "556",
+		"name": "Silicate d'alumino-sodique - potassique - calcique et d'aluminium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "557",
+		"name": "Silicate d'alumino-sodique - potassique - calcique et d'aluminium",
+		"level": "3",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "558",
+		"name": "Bentonite",
+		"level": "0",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "559",
+		"name": "Silicate d'alumino-sodique - potassique - calcique et d'aluminium",
+		"level": "2",
+		"type": "antiagglomérants",
+		"info": ""
+	},
+	{
+		"id": "570",
+		"name": "Acides gras",
+		"level": "3",
+		"type": "émulsifiants",
+		"info": ""
+	},
+	{
+		"id": "574",
+		"name": "Acide gluconique",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "575",
+		"name": "Glucono-delta-lactone - de sodium - potassium - calcium - fer",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "576",
+		"name": "Glucono-delta-lactone - de sodium - potassium - calcium - fer",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "577",
+		"name": "Glucono-delta-lactone - de sodium - potassium - calcium - fer",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "578",
+		"name": "Glucono-delta-lactone - de sodium - potassium - calcium - fer",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "579",
+		"name": "Glucono-delta-lactone - de sodium - potassium - calcium - fer",
+		"level": "3",
+		"type": "acides, bases, sels",
+		"info": ""
+	},
+	{
+		"id": "585",
+		"name": "Lactate de fer",
+		"level": "3",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "620",
+		"name": "Acide glutamique",
+		"level": "2",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "621",
+		"name": "Sels de l'acide glutamique (glutamates)",
+		"level": "2",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "622",
+		"name": "Sels de l'acide glutamique (glutamates)",
+		"level": "2",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "623",
+		"name": "Sels de l'acide glutamique (glutamates)",
+		"level": "2",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "624",
+		"name": "Sels de l'acide glutamique (glutamates)",
+		"level": "2",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "625",
+		"name": "Sels de l'acide glutamique (glutamates)",
+		"level": "2",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "626",
+		"name": "Acide guanylique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "627",
+		"name": "Sels de l'acide guanylique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "628",
+		"name": "Sels de l'acide guanylique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "629",
+		"name": "Sels de l'acide guanylique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "630",
+		"name": "Acide inosinique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "631",
+		"name": "Sels de l'acide inosinique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "632",
+		"name": "Sels de l'acide inosinique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "633",
+		"name": "Sels de l'acide inosinique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "634",
+		"name": "ribonucleotide calcique - disodique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "635",
+		"name": "ribonucleotide calcique - disodique",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "640",
+		"name": "Glycine et son sel de sodium",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "900",
+		"name": "Diméthylpolysiloxane",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "901",
+		"name": "Cire d'abeille blanche et jaune",
+		"level": "0",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "902",
+		"name": "Cire de candelilla",
+		"level": "3",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "903",
+		"name": "Cire de carnauba",
+		"level": "0",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "904",
+		"name": "Shellac",
+		"level": "1",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "905",
+		"name": "Cire microcristalline",
+		"level": "3",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "912",
+		"name": "Esters de l'acide montanique",
+		"level": "2",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "914",
+		"name": "Cire de polyéthylène oxydée",
+		"level": "3",
+		"type": "matières d'enrobage",
+		"info": ""
+	},
+	{
+		"id": "917",
+		"name": "Iodate de potassium",
+		"level": "3",
+		"type": "Oxidant",
+		"info": ""
+	},
+	{
+		"id": "920",
+		"name": "L-cystéine",
+		"level": "2",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "927b",
+		"name": "Carbamide",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "938",
+		"name": "Argon",
+		"level": "3",
+		"type": "gaz",
+		"info": ""
+	},
+	{
+		"id": "939",
+		"name": "Hélium",
+		"level": "3",
+		"type": "gaz",
+		"info": ""
+	},
+	{
+		"id": "941",
+		"name": "Azote",
+		"level": "3",
+		"type": "gaz",
+		"info": ""
+	},
+	{
+		"id": "942",
+		"name": "Protoxyde d'azote",
+		"level": "3",
+		"type": "gaz",
+		"info": ""
+	},
+	{
+		"id": "948",
+		"name": "Oxygène",
+		"level": "3",
+		"type": "gaz",
+		"info": ""
+	},
+	{
+		"id": "950",
+		"name": "Acésulfame K",
+		"level": "3",
+		"type": "édulcorants",
+		"info": ""
+	},
+	{
+		"id": "951",
+		"name": "Aspartame",
+		"level": "3",
+		"type": "édulcorants",
+		"info": ""
+	},
+	{
+		"id": "952",
+		"name": "Cyclamates",
+		"level": "3",
+		"type": "édulcorants",
+		"info": ""
+	},
+	{
+		"id": "953",
+		"name": "Isomalt",
+		"level": "3",
+		"type": "substances gustatives",
+		"info": ""
+	},
+	{
+		"id": "954",
+		"name": "Saccharine",
+		"level": "3",
+		"type": "édulcorants",
+		"info": ""
+	},
+	{
+		"id": "957",
+		"name": "Thaumatine",
+		"level": "3",
+		"type": "édulcorants",
+		"info": ""
+	},
+	{
+		"id": "959",
+		"name": "Neohespéridine DC",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "960",
+		"name": "Glycosides de stéviole",
+		"level": "1",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "961",
+		"name": "Néotame",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "962",
+		"name": "Sel d'aspartame",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "965",
+		"name": "Maltitol",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "967",
+		"name": "Xylitol",
+		"level": "3",
+		"type": " exhausteurs de saveur",
+		"info": ""
+	},
+	{
+		"id": "999",
+		"name": "Extraits de quillaia",
+		"level": "1",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1100",
+		"name": "Amylase",
+		"level": "1",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1103",
+		"name": "Invertase",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1105",
+		"name": "Lysozyme",
+		"level": "1",
+		"type": "colorants",
+		"info": ""
+	},
+	{
+		"id": "1200",
+		"name": "Polydextrose",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1201",
+		"name": "Polyvinylpyrrolidone",
+		"level": "2",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1202",
+		"name": "Polyvinylpolypyrrolidone",
+		"level": "0",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1404",
+		"name": "Amidon oxydé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1410",
+		"name": "Phosphate d'amidon",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1412",
+		"name": "Phosphate de diamidon",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1413",
+		"name": "Phosphate de diamidon phosphaté",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1414",
+		"name": "Phosphate de diamidon acétylé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1420",
+		"name": "Amidon acétylé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1422",
+		"name": "Adipate de diamidon acétylé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1440",
+		"name": "Amidon hydroxypropylé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1442",
+		"name": "Phosphate de diamidon hydroxypropylé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1450",
+		"name": "Octényle succinate d'amidon sodique",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1451",
+		"name": "Amidon oxydé acétylé",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1452",
+		"name": "Succinate octénylique aluminique d'amidon",
+		"level": "3",
+		"type": "amidons modifiés",
+		"info": ""
+	},
+	{
+		"id": "1505",
+		"name": "Citrate de triéthyle",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	},
+	{
+		"id": "1518",
+		"name": "Triacétate de glycérine (triacétine)",
+		"level": "3",
+		"type": "(divers)",
+		"info": ""
+	}
+]}
