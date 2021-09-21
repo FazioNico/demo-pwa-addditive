@@ -2,10 +2,10 @@ const FtpDeploy = require("ftp-deploy");
 const ftpDeploy = new FtpDeploy();
 
 const config = {
-    user: "fazio",
+    user: process.env.FTP_USER,
     // Password optional, prompted if none given
-    password: "nicfaz",
-    host: "ateliers.nomades.ch",
+    password: process.env.FTP_PWD,
+    host: process.env.FTP_HOST, //"ateliers.nomades.ch",
     port: 21,
     localRoot: __dirname + "/dist/AdditiveFinder",
     remoteRoot: "/public_html/demo-21/",
@@ -26,6 +26,7 @@ const config = {
     sftp: false,
 };
 
+console.log('user check->', process.env.FTP_USER);
 ftpDeploy
     .deploy(config)
     .then((res) => console.log("finished:", res))
