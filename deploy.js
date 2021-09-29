@@ -2,7 +2,7 @@ const FtpDeploy = require("ftp-deploy");
 const ftpDeploy = new FtpDeploy();
 
 const config = {
-    user: process.env.FTP_USER,
+    user: process.env.FTP_USER, // cabral
     // Password optional, prompted if none given
     password: process.env.FTP_PWD,
     host: process.env.FTP_HOST, //"ateliers.nomades.ch",
