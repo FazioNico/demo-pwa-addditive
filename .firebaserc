@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "demo2020-75757"
+  },
+  "targets": {
+    "demo2020-75757": {
+      "hosting": {
+        "AdditiveFinder": [
+          "demo2020-75757"
+        ]
+      }
+    }
   }
 }

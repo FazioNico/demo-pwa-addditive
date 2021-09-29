@@ -4,6 +4,9 @@ import { AlertController } from '@ionic/angular';
 import { IAdditive } from 'src/app/additive.iinterface';
 import { AdditiveService } from 'src/app/services/additive.service';
 import { WikiService } from './wiki.service';
+import { Firestore, collectionData, collection, setDoc, doc, deleteDoc, updateDoc, limit, QueryConstraint, where,  } from '@angular/fire/firestore';
+import { query } from '@firebase/firestore';
+import { first } from 'rxjs/operators';
 
 @Component({
   selector: 'app-detail',
@@ -20,7 +23,8 @@ export class DetailComponent implements OnInit {
     private readonly _router: Router,
     private readonly _api: AdditiveService,
     private readonly _alertCtrl: AlertController,
-    private readonly _wikiApi: WikiService
+    private readonly _wikiApi: WikiService,
+    private readonly _fireStore: Firestore
   ) { }
 
   async ngOnInit() {
@@ -37,7 +41,30 @@ export class DetailComponent implements OnInit {
     } else {
       this.additive = additive;
       this.detail = await this._wikiApi.getDetail(this.additive.id);
+      await this.counterViews(id);
     }
+  }
+
+  async counterViews(additiveId: string) {
+
+    const fbcol = collection(this._fireStore, 'additives');
+    const byAdditiveId = where('additiveId', '==', additiveId);
+    const q = query(fbcol, byAdditiveId);
+    const data = await collectionData(q, {idField: 'id'}).pipe(first()).toPromise();
+    if (data.length === 0) {
+      // create first count
+      const id = Date.now();
+      const fbDoc = doc(this._fireStore, 'additives/' + id);
+      await setDoc(fbDoc, {additiveId, views: 1});
+    } else {
+      // increment counter
+      const totalViews = ++data[0].views;
+      const fbDoc = doc(this._fireStore, 'additives/' + data[0].id);
+      await updateDoc(fbDoc, {views: totalViews});
+    }
+
+
+
   }
 
   async handleError() {

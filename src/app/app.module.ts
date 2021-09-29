@@ -8,6 +8,9 @@ import { IonicModule } from '@ionic/angular';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { UpdatesNotificationComponent } from './notif-component/notif.component';
+import {  provideFirebaseApp, initializeApp } from '@angular/fire/app';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +28,10 @@ import { UpdatesNotificationComponent } from './notif-component/notif.component'
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
+    // import to configure firebase
+    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+    // import to enable Firestore service
+    provideFirestore(() => getFirestore()),
   ],
   providers: [],
   bootstrap: [AppComponent]

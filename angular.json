@@ -175,8 +175,16 @@
             }
           }
         },
-        "deploy": {
+        "deploy:fire": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
+        },
+        "deploy:git": {
           "builder": "angular-cli-ghpages:deploy",
+          "options": {}
+        },
+        "deploy:ftp": {
+          "commande": "npm run deploy:ftp",
           "options": {}
         }
       }
