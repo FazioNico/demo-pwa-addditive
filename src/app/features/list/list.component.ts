@@ -17,7 +17,20 @@ export class ListComponent implements OnInit {
   ) { }
 
   async ngOnInit() {
-    this.additives = await this._api.getAll();
+    const additives = await this._api.getAll();
+    const views: any[] = [];
+    this.additives = this.aggregateData(additives, views);
+  }
+
+  aggregateData(a: IAdditive[], b: {additiveId: string, views: number}[]) {
+    const result = [];
+    for (let index = 0; index < a.length; index++) {
+      const element = a[index];
+      const count = b.find(x => x.additiveId === element.id)?.views || 0;
+      const obj = {...element, views: count};
+      result.push(obj);
+    }
+    return result;
   }
 
   loadData($event: any) {

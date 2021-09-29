@@ -4,4 +4,5 @@ export interface IAdditive 	{
   level: string;
   type: string;
   info: string;
+  views?: number;
 }
