@@ -84,6 +84,13 @@
   .ion-color-dark {
     color: var(--ion-color-black);
   }
+
+  .alertRadio {
+
+      .alert-radio-icon {
+        border-color: var(--ion-color-dark)!important;
+      }
+  }
 }
 
 
