@@ -1,10 +1,13 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { IAdditive } from 'src/app/additive.iinterface';
 import { AdditiveService } from 'src/app/services/additive.service';
-import { collection, Firestore } from '@angular/fire/firestore';
+import { collection, Firestore, query } from '@angular/fire/firestore';
+import { authState, Auth, User, signOut, signInWithPopup, GoogleAuthProvider } from '@angular/fire/auth';
 import { collectionData } from 'rxfire/firestore';
-import { first } from 'rxjs/operators';
+import { first, map } from 'rxjs/operators';
 import { AlertController } from '@ionic/angular';
+import { Observable, of } from 'rxjs';
+import { where } from '@firebase/firestore';
 
 type SortType = 'alphabetic'|'views';
 
@@ -18,20 +21,49 @@ export class ListComponent {
   public max: number = 15;
   public sortByValue: SortType = 'alphabetic';
   public additives: IAdditive[]|undefined;
+  public user$: Observable<User|any> = of({});
 
   constructor(
     private readonly _api: AdditiveService,
     private readonly _firestore: Firestore,
-    private readonly _alertCtrl: AlertController
-  ) { }
+    private readonly _alertCtrl: AlertController,
+    private readonly _auth: Auth,
+  ) {
+    this.user$ = authState(this._auth).pipe(
+      map((user: User|null)=> {
+        if (user) {
+          return user;
+        }
+        return {};
+      })
+    );
+  }
 
   async ionViewWillEnter() {
     console.log('load...');
-    
+    // get user from firebase
+    const user = await this.user$.pipe(first()).toPromise();
+    this.getData(user);
+  }
+
+  async getData(user?: User) {
+    // get data from API
     const additives = await this._api.getAll();
-    const fbCol = collection(this._firestore, 'additives');
-    const data: any[] = await collectionData(fbCol).pipe(first()).toPromise();
-    this.additives = this.aggregateData(additives, data);
+    // if user is connected load data with aggregation from firebase
+    if (user?.uid) {
+      const fbCol = collection(this._firestore, 'additives');
+      // create constraint to load only user data
+      const byUserId = where('uid', '==', user.uid);
+      // build firebase query
+      const q = query(fbCol, byUserId);
+      // request data from firebase
+      const data: any[] = await collectionData(q).pipe(first()).toPromise();
+      // aggregate data
+      this.additives = this.aggregateData(additives, data);
+    } else {
+      // user is not connected load data from API
+      this.additives = additives;
+    }
   }
 
   aggregateData(a: IAdditive[], b: {additiveId: string, views: number}[]) {
@@ -45,7 +77,7 @@ export class ListComponent {
     return result;
   }
 
-  loadData($event: any) {
+  loadMoreData($event: any) {
     if (this.additives?.length||0 < this.max) {
       console.log('more...');
       
@@ -116,4 +148,13 @@ export class ListComponent {
     return additive.id;
   }
 
+  async login(){
+    const { user } = await signInWithPopup(this._auth, new GoogleAuthProvider());
+    this.getData(user);
+  }
+
+  logout() {
+    signOut(this._auth);
+    this.getData();
+  }
 }

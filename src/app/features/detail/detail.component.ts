@@ -7,6 +7,7 @@ import { WikiService } from './wiki.service';
 import { Firestore, collectionData, collection, setDoc, doc, deleteDoc, updateDoc, limit, QueryConstraint, where,  } from '@angular/fire/firestore';
 import { query } from '@firebase/firestore';
 import { first } from 'rxjs/operators';
+import { Auth, authState } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-detail',
@@ -24,12 +25,12 @@ export class DetailComponent implements OnInit {
     private readonly _api: AdditiveService,
     private readonly _alertCtrl: AlertController,
     private readonly _wikiApi: WikiService,
-    private readonly _fireStore: Firestore
+    private readonly _fireStore: Firestore,
+    private readonly _auth: Auth
   ) { }
 
   async ngOnInit() {
     const id = this._route.snapshot.params.id;
-    console.log(id);
     const additive = await this._api
       .getAll()
       .then(data => {
@@ -41,30 +42,35 @@ export class DetailComponent implements OnInit {
     } else {
       this.additive = additive;
       this.detail = await this._wikiApi.getDetail(this.additive.id);
-      await this.counterViews(id);
+      const user = await authState(this._auth).pipe(first()).toPromise();
+      if (user?.uid) {
+        await this.counterViews(id, user.uid);
+      }
     }
   }
 
-  async counterViews(additiveId: string) {
-
+  async counterViews(additiveId: string, uid?: string) {
     const fbcol = collection(this._fireStore, 'additives');
     const byAdditiveId = where('additiveId', '==', additiveId);
-    const q = query(fbcol, byAdditiveId);
+    let q;
+    if (uid) {
+      const byUserId = where('uid', '==', uid);
+      q = query(fbcol, byUserId, byAdditiveId);
+    } else {
+      q = query(fbcol, byAdditiveId);
+    }
     const data = await collectionData(q, {idField: 'id'}).pipe(first()).toPromise();
     if (data.length === 0) {
       // create first count
       const id = Date.now();
       const fbDoc = doc(this._fireStore, 'additives/' + id);
-      await setDoc(fbDoc, {additiveId, views: 1});
+      if (uid) await setDoc(fbDoc, {additiveId, views: 1, uid});
     } else {
       // increment counter
       const totalViews = ++data[0].views;
       const fbDoc = doc(this._fireStore, 'additives/' + data[0].id);
-      await updateDoc(fbDoc, {views: totalViews});
+      if (uid) await updateDoc(fbDoc, {views: totalViews, uid});
     }
-
-
-
   }
 
   async handleError() {

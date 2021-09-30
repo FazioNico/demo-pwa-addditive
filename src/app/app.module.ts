@@ -10,6 +10,7 @@ import { environment } from '../environments/environment';
 import { UpdatesNotificationComponent } from './notif-component/notif.component';
 import {  provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { getAuth, provideAuth } from '@angular/fire/auth';
 
 
 @NgModule({
@@ -32,6 +33,8 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
     provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
     // import to enable Firestore service
     provideFirestore(() => getFirestore()),
+    // import to enable Auth service
+    provideAuth(() => getAuth()),
   ],
   providers: [],
   bootstrap: [AppComponent]

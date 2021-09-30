@@ -6,6 +6,9 @@
       <ion-button (click)="selectSortBy()">
         <ion-icon color="light" name="filter"></ion-icon>
       </ion-button>
+      <ion-button *ngIf="user$|async as user" (click)="user?.uid ? logout() : login()">
+        <ion-icon color="light" [name]="user?.uid ? 'log-out' : 'log-in'"></ion-icon>
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -26,7 +29,7 @@
         <ion-text color="medium">
           <p>
             {{additive.type}}<br/>
-            consulté: {{additive.views}}x
+            <small *ngIf="additive.views !== undefined">consulté: {{additive.views}}x</small>
           </p>
         </ion-text>
       </ion-label>
@@ -36,7 +39,7 @@
     </ion-item>
   </ion-list>
 
-  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMoreData($event)">
     <ion-infinite-scroll-content
       loadingSpinner="bubbles"
       loadingText="Loading more data...">
