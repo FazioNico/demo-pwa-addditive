@@ -11,7 +11,9 @@
 </ion-header>
 <ion-content>
   <ion-list class="ion-no-padding" *ngIf="additives">
-    <ion-item *ngFor="let additive of additives|slice:0:max" [routerLink]="additive.id">
+    <ion-item 
+        *ngFor="let additive of additives|slice:0:max;let i = index;trackBy:trackBy" 
+        [routerLink]="additive.id">
       <ion-thumbnail slot="start" [style.background]="additive.level|level">
         <ion-text color="primary">
           E{{additive.id}}

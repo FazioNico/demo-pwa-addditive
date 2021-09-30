@@ -17,16 +17,17 @@ export class ListComponent {
 
   public max: number = 15;
   public sortByValue: SortType = 'alphabetic';
-
   public additives: IAdditive[]|undefined;
+
   constructor(
     private readonly _api: AdditiveService,
     private readonly _firestore: Firestore,
     private readonly _alertCtrl: AlertController
-
   ) { }
 
   async ionViewWillEnter() {
+    console.log('load...');
+    
     const additives = await this._api.getAll();
     const fbCol = collection(this._firestore, 'additives');
     const data: any[] = await collectionData(fbCol).pipe(first()).toPromise();
@@ -114,4 +115,5 @@ export class ListComponent {
   trackBy(index: number, additive: IAdditive): string {
     return additive.id;
   }
+
 }
