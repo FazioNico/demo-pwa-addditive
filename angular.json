@@ -186,6 +186,10 @@
         "deploy:ftp": {
           "commande": "npm run deploy:ftp",
           "options": {}
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
